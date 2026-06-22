@@ -31,3 +31,5 @@ Working with Multiple Branches
 Different branches can be used for different tasks or projects.
 
 This keeps the work organized and allows multiple people to collaborate easily.
+Workflow:
+Create Repository ----> Create Branch -----> Add Files ------> Commit Changes ----------------> Push to GitHub
