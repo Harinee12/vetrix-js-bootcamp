@@ -14,8 +14,8 @@
       }
 
       body {
-        background: #f4f7fb;
-        padding: 30px;
+        background: #f5f7fb;
+        padding: 40px;
       }
 
       h1 {
@@ -27,33 +27,45 @@
       p {
         text-align: center;
         color: #555;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
       }
 
       .container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 20px;
       }
 
       .card {
-        background: #fff;
-        border-radius: 10px;
+        background: white;
         padding: 20px;
+        border-radius: 12px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
         text-align: center;
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
       }
 
       .card h2 {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        color: #2563eb;
+      }
+
+      a {
+        text-decoration: none;
       }
 
       button {
-        padding: 10px 18px;
+        width: 100%;
+        padding: 12px;
         border: none;
-        border-radius: 6px;
+        border-radius: 8px;
         background: #2563eb;
         color: white;
+        font-size: 16px;
         cursor: pointer;
       }
 
@@ -61,141 +73,109 @@
         background: #1d4ed8;
       }
 
-      #result,
-      #dashboard,
-      #wrapper,
-      #app-header {
-        margin-top: 30px;
-        padding: 15px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-      }
-
-      .status-indicator {
-        display: inline-block;
-        margin: 5px;
-        padding: 8px 12px;
-        background: #dbeafe;
-        border-radius: 5px;
-      }
-
-      #projectLink {
-        display: inline-block;
-        margin-top: 15px;
-        color: #2563eb;
-        text-decoration: none;
-        font-weight: bold;
+      footer {
+        margin-top: 50px;
+        text-align: center;
+        color: gray;
       }
     </style>
   </head>
+
   <body>
     <h1>🚀 Vetrix JavaScript Bootcamp</h1>
-    <p>Harini G</p>
+
+    <p>Harini G | B.Tech Information Technology</p>
 
     <div class="container">
       <div class="card">
         <h2>Day 1</h2>
-        <button onclick="run('app1.js')">Run</button>
+        <a href="day1.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 2</h2>
-        <button onclick="run('app.js')">Run</button>
+        <a href="day2.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 3</h2>
-        <button onclick="run('switchcaseday3.js')">Run</button>
+        <a href="day3.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 4</h2>
-        <button onclick="run('day4.js')">Run</button>
+        <a href="day4.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 5</h2>
-        <button onclick="run('day5.js')">Run</button>
+        <a href="day5.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 6</h2>
-        <button onclick="run('day6.js')">Run</button>
+        <a href="day6.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 7</h2>
-        <button onclick="run('day7.js')">Run</button>
+        <a href="day7.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 8</h2>
-        <button onclick="run('day8.js')">Run</button>
+        <a href="day8.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 9</h2>
-        <button onclick="run('day9.js')">Run</button>
+        <a href="day9.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 10</h2>
-        <button onclick="run('day10.js')">Run</button>
+        <a href="day10.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 11</h2>
-        <button onclick="run('day11.js')">Run</button>
+        <a href="day11.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 12</h2>
-        <button onclick="run('day12.js')">Run</button>
+        <a href="day12.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 13</h2>
-        <button onclick="run('day13.js')">Run</button>
+        <a href="day13.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 14</h2>
-        <button onclick="run('day14.js')">Run</button>
+        <a href="day14.html"><button>Open</button></a>
       </div>
+
       <div class="card">
         <h2>Day 15</h2>
-        <button onclick="run('day15.js')">Run</button>
+        <a href="day15.html"><button>Open</button></a>
       </div>
+
       <div class="card">
-        <h2>Day 16-22</h2>
-        <button onclick="run('task16-22.js')">Run</button>
+        <h2>Day 16 - 22</h2>
+        <a href="day16-22.html"><button>Open</button></a>
       </div>
+
       <div class="card">
-        <h2>Day 23-24</h2>
-        <button onclick="run('task23,24.js')">Run</button>
+        <h2>Day 23 - 24</h2>
+        <a href="day23-24.html"><button>Open</button></a>
       </div>
     </div>
 
-    <hr style="margin: 40px 0" />
-
-    <h2 id="app-header">Application Header</h2>
-
-    <div id="wrapper">Welcome</div>
-
-    <div id="result">Output will appear here.</div>
-
-    <div id="dashboard">Dashboard</div>
-
-    <div class="status-indicator">Status 1</div>
-    <div class="status-indicator">Status 2</div>
-    <div class="status-indicator">Status 3</div>
-
-    <br />
-
-    <a id="projectLink" href="#" target="_blank">Project Link</a>
-
-    <script>
-      function run(file) {
-        const old = document.getElementById("dynamicScript");
-
-        if (old) {
-          old.remove();
-        }
-
-        const script = document.createElement("script");
-        script.src = file + "?v=" + Date.now();
-        script.id = "dynamicScript";
-
-        document.body.appendChild(script);
-      }
-    </script>
+    <footer>
+      <h3>Vetrix JavaScript Bootcamp Portfolio</h3>
+      <p>Created by Harini G</p>
+    </footer>
   </body>
 </html>
